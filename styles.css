@@ -20,6 +20,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 50px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -44,6 +45,7 @@ p {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 img {
   border-radius: 50%;
@@ -59,4 +61,18 @@ h4 {
 }
 .button a:hover {
   color: black;
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    width: 75%;
+    padding: 5px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .button {
+    margin: 12px;
+  }
 }
