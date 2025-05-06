@@ -11,10 +11,10 @@
 }
 
 body {
-  background-color: hsl(0, 0%, 8%);
+  background-color: #fff;
   width: 100%;
   height: 100vh;
-  color: white;
+  color: black;
 }
 
 .attribution {
@@ -26,8 +26,8 @@ body {
   color: hsl(228, 45%, 44%);
 }
 main {
-  background-color: hsl(0, 0%, 12%);
-  width: 30%;
+  background-color: #f7e9e3;
+  width: 50%;
   padding: 30px;
   border-radius: 13px;
   margin: 5% auto;
@@ -38,41 +38,22 @@ p {
   font-size: 14px;
 }
 .button {
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 100%);
   padding: 15px;
   border-radius: 7px;
   margin: 25px;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: hsl(0, 0%, 0%);
 }
 img {
   border-radius: 50%;
 }
-h4 {
-  color: hsl(75, 94%, 57%);
-}
-.attribution a {
-  color: hsl(75, 94%, 57%);
-}
+
 .button:hover {
-  background-color: hsl(75, 94%, 57%);
+  background-color: #ffc0c2;
 }
 .button a:hover {
   color: black;
-}
-
-@media screen and (max-width: 375px) {
-  main {
-    width: 75%;
-    padding: 5px;
-  }
-  img {
-    width: 100px;
-    height: 100px;
-  }
-  .button {
-    margin: 12px;
-  }
 }
